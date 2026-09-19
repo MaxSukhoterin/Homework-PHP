@@ -8,9 +8,13 @@
         table{
             border: solid 1px;
         }
+        table{
+            /* transform: scale(0.7); */
+        }
          th{
-            width: 45px;
+            width: 35px;
             border: solid 1px;
+            font-size: 10px;
         }
         td{
             width: 20px;
