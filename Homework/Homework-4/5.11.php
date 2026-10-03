@@ -111,7 +111,49 @@
 
     echo "<h2>За Середнім балом</h2>";
     draw($bySerMark, 'avg', 'orange', true);
-    // echo "<div>";
+    
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+            .sorting{
+                display: flex;
+                flex - wrap: wrap;
+                justify - content: center;
+                gap: 20px;
+                margin - bottom: 30px;
+
+            }
+        .student{
+            display: inline-block;
+            width: 200px;
+            height: 270px;
+            border: solid 2px black;
+            text-align: center;
+            margin-right: 20px;
+            border-radius: 20%;
+            transition: transform 0.3s ease;
+        }
+        .student:hover{
+            transform: scale(1.05);
+        }
+        h3{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>
+<?php
+// echo "<div>";
 
     // uasort($byname, fn($a, $b) => $a['name'] <=> $b['name']);
 
@@ -242,43 +284,3 @@
 
     // echo "<hr>";
     // echo "<hr>";
-
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-
-            .sorting{
-                display: flex;
-                flex - wrap: wrap;
-                justify - content: center;
-                gap: 20px;
-                margin - bottom: 30px;
-
-            }
-        .student{
-            display: inline-block;
-            width: 200px;
-            height: 270px;
-            border: solid 2px black;
-            text-align: center;
-            margin-right: 20px;
-            border-radius: 20%;
-            transition: transform 0.3s ease;
-        }
-        .student:hover{
-            transform: scale(1.05);
-        }
-        h3{
-            color: blue;
-        }
-    </style>
-</head>
-<body>
-
-</body>
-</html>
